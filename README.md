@@ -4,7 +4,7 @@ An open-source, desktop-native hierarchical multi-agent orchestration framework 
 
 ## **🚀 The Vision**
 
-Modern autonomous agent pipelines often suffer from a severe bottleneck: using frontier models (like GPT-5.5/Gpt-5.6 or Claude-4.8/Fabel) for every granular sub-task is financially unsustainable, while relying entirely on smaller models degrades high-level planning and reasoning.
+Modern autonomous agent pipelines often suffer from a severe bottleneck: using frontier models (like GPT-5.5/Gpt-5.6 or Claude-4.8/Fable) for every granular sub-task is financially unsustainable, while relying entirely on smaller models degrades high-level planning and reasoning.
 
 **One-AI-Agent** solves this by introducing a **Command & Execute** hierarchy directly inside a secure, lightweight desktop application.
 
@@ -18,7 +18,7 @@ The framework operates on a strict top-down execution graph to prevent prompt dr
          │  
          ▼  (Direct Commands Allowed)  
  ┌────────────────────────────────────────┐  
- │           Orchestrator Core            │  \<-- Frontier LLMs (GPT-5.5/Gpt-5.6 or Claude-4.8/Fabel)  
+ │           Orchestrator Core            │  \<-- Frontier LLMs (GPT-5.5/Gpt-5.6 or Claude-4.8/Fable)  
  └────────────────────────────────────────┘  
          │  
          ▼  (Generates Immutable Sub-Tasks)  
